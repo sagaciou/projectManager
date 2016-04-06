@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    #parse("/metronic/head.vm")
+</head>
+<!-- END HEAD -->
+
+<body class="page-header-fixed page-sidebar-closed-hide-logo page-container-bg-solid">
+<!-- BEGIN HEADER -->
+    #parse("/metronic/header.vm")
+<!-- END HEADER -->
+<!-- BEGIN HEADER & CONTENT DIVIDER -->
+<div class="clearfix"></div>
+<!-- END HEADER & CONTENT DIVIDER -->
+<!-- BEGIN CONTAINER -->
+<div class="page-container">
+    <!-- BEGIN SIDEBAR -->
+    #parse("/metronic/sidebar.vm")
+    <!-- END SIDEBAR -->
+    <!-- BEGIN CONTENT -->
+    #parse("/metronic/content.vm")
+    <!-- END CONTENT -->
+    <!-- BEGIN QUICK SIDEBAR -->
+    #parse("/metronic/quickSidebar.vm")
+    <!-- END QUICK SIDEBAR -->
+</div>
+<!-- END CONTAINER -->
+<!-- BEGIN FOOTER -->
+    #parse("/metronic/footer.vm")
+<!-- END FOOTER -->
+    #parse("/metronic/endOfPage.vm")
+</body>
+
+</html>

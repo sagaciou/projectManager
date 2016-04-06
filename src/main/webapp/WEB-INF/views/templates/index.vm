@@ -1,0 +1,8 @@
+#set($pageTitle = "后台首页")
+#set($description = "后台首页")
+#set($author = "ltfswe")
+#set($activeMenu = "index")
+
+<div class="note note-info">
+    <h1>首页!!!!暂无规划!!!!</h1>
+</div>

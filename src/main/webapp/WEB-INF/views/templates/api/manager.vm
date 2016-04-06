@@ -1,0 +1,8 @@
+#set($pageTitle = "API 管理")
+#set($description = "API 管理")
+#set($author = "ltfswe")
+#set($activeMenu = "api_manager")
+
+<div class="note note-info">
+    <h1>首页!!!!暂无规划!!!!</h1>
+</div>

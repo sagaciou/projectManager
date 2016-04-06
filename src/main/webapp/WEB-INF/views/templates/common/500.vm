@@ -1,0 +1,17 @@
+#set($pageTitle = "500")
+#set($description = "程序异常")
+#set($author = "ltfswe")
+
+<div class="row">
+    <div class="col-md-12 page-500">
+        <div class=" number font-red"> 500 </div>
+        <div class=" details">
+            <h3> 程序出现异常! </h3>
+            <p> $!{message}
+                <br/> </p>
+            <p>
+                <a href="${rc.contextPath}/index" class="btn red btn-outline"> 去首页 </a>
+                <br> </p>
+        </div>
+    </div>
+</div>
