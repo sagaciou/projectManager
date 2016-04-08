@@ -32,7 +32,7 @@
   <repositories>
     <repository>
       <id>local-central</id>
-      <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+      <url>http://maven.oschina.net/content/groups/public/</url>
     </repository>
   </repositories>
 
@@ -185,6 +185,8 @@
       <version>${junit.version}</version>
       <scope>test</scope>
     </dependency>
+
+
 
   </dependencies>
 
