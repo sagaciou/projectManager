@@ -28,7 +28,7 @@ public class UserHandlerInterceptor extends HandlerInterceptorAdapter {
         System.out.println(session.getAttribute("user_login"));
         if (session.getAttribute("user_login") == null) {
             response.sendRedirect("/user/");
-            return false;
+            return false;+
         } else {
             return true;
         }
