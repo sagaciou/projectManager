@@ -20,7 +20,6 @@ public class UserHandlerInterceptor extends HandlerInterceptorAdapter {
         String requestURI = request.getRequestURI();
         for (String url : excludedUrls) {
             if (requestURI.endsWith(url)) {
-                System.out.println(url);
                 return true;
             }
         }
@@ -28,7 +27,7 @@ public class UserHandlerInterceptor extends HandlerInterceptorAdapter {
         System.out.println(session.getAttribute("user_login"));
         if (session.getAttribute("user_login") == null) {
             response.sendRedirect("/user/");
-            return false;+
+            return false;
         } else {
             return true;
         }
