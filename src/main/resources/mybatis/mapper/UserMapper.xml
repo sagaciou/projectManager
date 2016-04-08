@@ -3,4 +3,13 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.starsdom.system.api.respository.mapper.UserRepository">
 
+    <resultMap id="user" type="com.starsdom.system.api.respository.domain.UserEntity">
+        <id property="id" column=""/>
+        <result property="" column=""/>
+        <result property="" column=""/>
+        <result property="" column=""/>
+        <result property="" column=""/>
+        <result property="" column=""/>
+    </resultMap>
+
 </mapper>
